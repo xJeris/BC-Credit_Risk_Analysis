@@ -6,7 +6,7 @@
 
 ## Results
 
-<p>Below are the results for each of the 6 classifers used in this analysis. For our analysis we are focused on the Balanced Accuracy, Precision, and Recall scores.</p>
+<p>Below are the results for each of the 6 classifers used in this analysis. For our analysis we are focused on the Balanced Accuracy, Precision, and Recall scores. Oversampling and Undersampling produced similar results across all 4 classifiers. The Random Forest and Easy Ensemble classifiers produced significantly better results.</p>
 
 Balanced Accuracy Score<br/>
 <img src="../main/images/BAScores.png" width='290'>
@@ -33,6 +33,3 @@ Easy Ensemble AdaBoost<br/>
 ## Summary
 
 <p>In conclusion, we can see that oversampling and undersampling produced similar, but average predicition results. While the Balance Random Forest and Easy Ensemble classifiers predicted the loan risk much more often. Given the precision and recall scores of the Easy Ensemble, which are both at or near 1.0, as well as higher balanced accuracy scores, i would recommend using that classifier for doing further loan risk analysis.</p>
-
-summary
-recommendation on which model to use with justification
